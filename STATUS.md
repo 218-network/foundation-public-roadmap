@@ -7,6 +7,7 @@
 | 218-network GitHub organization | `published` | Organization exists as institutional public repo surface. |
 | First six public repos | `published` / `scaffolded` | Public-safe governance, transparency, roadmap, program, and report scaffolds. |
 | Second six public repos | `published` / `scaffolded` | Public-safe release-index, documentation-template, civic-AI-safety, model-card, dataset-card, and Space-readiness scaffolds. |
+| Third four public repos | `published` / `scaffolded` | Public-safe NEURONA docs, cleanup data readiness, schools docs, and graph-kit scaffolds. |
 | Live schools | `planned` | No live-school claim is made here. |
 | Live NEURONAs | `planned` | No live-NEURONA claim is made here. |
 | Live cleanup deployments | `planned` | No live cleanup-operation claim is made here. |

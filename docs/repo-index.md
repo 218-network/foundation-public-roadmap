@@ -30,6 +30,19 @@ This index records the institutional public repository stack for the 218-network
 
 The second public stack does not publish model weights, datasets, runnable Space applications, live demos, private corpora, telemetry, donor data, student data, volunteer private data, or operational deployments. All future artifacts remain `planned` until approved release evidence exists.
 
+## Third Public Stack
+
+| Repository | Public URL | Status | Role | Public Data |
+| --- | --- | --- | --- | --- |
+| `neurona-public-docs` | https://github.com/218-network/neurona-public-docs | `published` / `scaffolded` | Public-safe NEURONA documentation scaffold. | Public overview structure, safety language, review checklist, synthetic overview example, and boundary maps. |
+| `cleanup-data-public` | https://github.com/218-network/cleanup-data-public | `published` / `scaffolded` | Cleanup public-data readiness scaffold. | Data standard, sanitation standard, synthetic schema/example, dataset-card companion templates, and release checklist. |
+| `schools-public-docs` | https://github.com/218-network/schools-public-docs | `published` / `scaffolded` | Public-safe school documentation scaffold. | Public overview templates, student-data exclusion rules, synthetic overview example, and report-flow maps. |
+| `foundation-graph-kit` | https://github.com/218-network/foundation-graph-kit | `published` / `scaffolded` | Public-safe Mermaid graph standards and templates. | Graph standard, class definitions, templates, synthetic examples, rendering checklist, and taxonomy maps. |
+
+## Program Documentation Boundary
+
+The third public stack does not publish NEURONA deployments, cleanup datasets, school operations, exact sensitive locations, student data, private telemetry, sensitive topology, or operational reports. It is public documentation infrastructure only.
+
 ## Relationship To K-ussade
 
 K-ussade remains Alexandra Caussade's public technical brand/account surface. K-ussade may link to this organization as institutional Foundation proof, but K-ussade is not the Foundation institution and the Foundation org is not K-ussade's personal portfolio namespace.

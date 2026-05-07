@@ -20,6 +20,10 @@ This roadmap records institutional public repository work for the 218-network Gi
 | `foundation-model-cards` | `published` / `scaffolded` | https://github.com/218-network/foundation-model-cards | Model-card templates only; no model weights or released model claim. |
 | `foundation-dataset-cards` | `published` / `scaffolded` | https://github.com/218-network/foundation-dataset-cards | Dataset-card templates only; no dataset files or released dataset claim. |
 | `foundation-spaces` | `published` / `scaffolded` | https://github.com/218-network/foundation-spaces | Space README and demo-readiness templates only; no live Space claim. |
+| `neurona-public-docs` | `published` / `scaffolded` | https://github.com/218-network/neurona-public-docs | Public-safe NEURONA docs only; no deployment, telemetry, exact location, or security-sensitive detail. |
+| `cleanup-data-public` | `published` / `scaffolded` | https://github.com/218-network/cleanup-data-public | Cleanup schema and sanitation scaffold only; no real dataset or exact sensitive location data. |
+| `schools-public-docs` | `published` / `scaffolded` | https://github.com/218-network/schools-public-docs | School public-doc scaffold only; no student data or open-school claim. |
+| `foundation-graph-kit` | `published` / `scaffolded` | https://github.com/218-network/foundation-graph-kit | Public-safe Mermaid templates only; no sensitive topology or sealed diagrams. |
 
 ## Planned Future Work
 

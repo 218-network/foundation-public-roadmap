@@ -21,6 +21,10 @@ flowchart LR
     modelCards["foundation-model-cards<br/>published / scaffolded"]:::public
     datasetCards["foundation-dataset-cards<br/>published / scaffolded"]:::public
     spaces["foundation-spaces<br/>published / scaffolded"]:::public
+    neuronaDocs["neurona-public-docs<br/>published / scaffolded"]:::public
+    cleanupData["cleanup-data-public<br/>published / scaffolded"]:::public
+    schoolsDocs["schools-public-docs<br/>published / scaffolded"]:::public
+    graphKit["foundation-graph-kit<br/>published / scaffolded"]:::public
     futureArtifacts["Models / datasets / Spaces / schools / NEURONAs / live deployments<br/>planned"]:::release
     privateData["Private records and operations<br/>private/not-public"]:::private
 
@@ -36,8 +40,16 @@ flowchart LR
     org --> modelCards
     org --> datasetCards
     org --> spaces
+    org --> neuronaDocs
+    org --> cleanupData
+    org --> schoolsDocs
+    org --> graphKit
     hfIndex -. indexes planned release surfaces .-> futureArtifacts
     safetyNotes -. gates claims before release .-> futureArtifacts
+    neuronaDocs -. keeps NEURONA status planned .-> futureArtifacts
+    cleanupData -. keeps cleanup datasets planned .-> futureArtifacts
+    schoolsDocs -. keeps school status planned .-> futureArtifacts
+    graphKit -. standardizes public-safe diagrams .-> roadmap
     roadmap -. tracks planned status .-> futureArtifacts
     privateData -. excluded .-> org
 
@@ -54,6 +66,7 @@ flowchart LR
 
 - The public stack is published and scaffolded.
 - The second stack adds release-index, documentation-template, safety-note, model-card, dataset-card, and Space-readiness scaffolds.
+- The third stack adds NEURONA, cleanup-data, schools, and graph-standard scaffolds without changing operational status.
 - The roadmap and Hugging Face index track planned future artifacts without converting them into released artifacts.
 
 ## Boundary Notes
