@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This graph records the first six institutional repos and their initial public statuses.
+This graph records the institutional repos and their public statuses.
 
 ## Mermaid Diagram
 
@@ -15,6 +15,12 @@ flowchart LR
     roadmap["foundation-public-roadmap<br/>published / scaffolded"]:::public
     programs["foundation-programs-public<br/>published / scaffolded"]:::public
     reports["foundation-public-reports<br/>published / scaffolded"]:::public
+    hfIndex["foundation-huggingface-index<br/>published / scaffolded"]:::public
+    docTemplates["foundation-doc-templates<br/>published / scaffolded"]:::public
+    safetyNotes["civic-ai-safety-notes<br/>published / scaffolded"]:::public
+    modelCards["foundation-model-cards<br/>published / scaffolded"]:::public
+    datasetCards["foundation-dataset-cards<br/>published / scaffolded"]:::public
+    spaces["foundation-spaces<br/>published / scaffolded"]:::public
     futureArtifacts["Models / datasets / Spaces / schools / NEURONAs / live deployments<br/>planned"]:::release
     privateData["Private records and operations<br/>private/not-public"]:::private
 
@@ -24,6 +30,14 @@ flowchart LR
     org --> roadmap
     org --> programs
     org --> reports
+    org --> hfIndex
+    org --> docTemplates
+    org --> safetyNotes
+    org --> modelCards
+    org --> datasetCards
+    org --> spaces
+    hfIndex -. indexes planned release surfaces .-> futureArtifacts
+    safetyNotes -. gates claims before release .-> futureArtifacts
     roadmap -. tracks planned status .-> futureArtifacts
     privateData -. excluded .-> org
 
@@ -38,8 +52,9 @@ flowchart LR
 
 ## Interpretation Notes
 
-- The first stack is public and scaffolded.
-- The roadmap tracks planned future artifacts without converting them into released artifacts.
+- The public stack is published and scaffolded.
+- The second stack adds release-index, documentation-template, safety-note, model-card, dataset-card, and Space-readiness scaffolds.
+- The roadmap and Hugging Face index track planned future artifacts without converting them into released artifacts.
 
 ## Boundary Notes
 
